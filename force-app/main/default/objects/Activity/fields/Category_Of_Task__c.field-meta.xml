@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Of_Task__c</fullName>
+    <externalId>false</externalId>
+    <label>Task Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Meeting with Doctor</fullName>
+                <default>false</default>
+                <label>Meeting with Doctor</label>
+            </value>
+            <value>
+                <fullName>Call with Doctor</fullName>
+                <default>false</default>
+                <label>Call with Doctor</label>
+            </value>
+            <value>
+                <fullName>Email Doctor</fullName>
+                <default>false</default>
+                <label>Email Doctor</label>
+            </value>
+            <value>
+                <fullName>Meeting with Hospital Head</fullName>
+                <default>false</default>
+                <label>Meeting with Hospital Head</label>
+            </value>
+            <value>
+                <fullName>Visit to Hospital</fullName>
+                <default>false</default>
+                <label>Visit to Hospital</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

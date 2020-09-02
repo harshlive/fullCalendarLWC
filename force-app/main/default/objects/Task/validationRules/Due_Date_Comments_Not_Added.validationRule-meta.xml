@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date_Comments_Not_Added</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(    StartDateTime__c )&amp;&amp;  NOT(ISCHANGED(  Due_Date_Comments__c ))</errorConditionFormula>
+    <errorDisplayField>Due_Date_Comments__c</errorDisplayField>
+    <errorMessage>Please add new Date Comments before changing</errorMessage>
+</ValidationRule>
